@@ -17,5 +17,5 @@ form.addEventListener('submit', (event) =>{
     
     event.currentTarget.reset();
     
-    return console.log(`User email: ${user.email} , User Pass: ${user.password}`)
+    return console.log(user)
 })
